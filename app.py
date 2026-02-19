@@ -314,7 +314,7 @@ if backend_btn:
 
     try:
         response = requests.post(
-            "http://127.0.0.1:8000/simulate",
+            "https://cred-backend-8dqe.onrender.com",
             json={
                 "amount": amount,
                 "cibil": cibil,
